@@ -9,10 +9,10 @@ function setDescription(){
 setDescription()
 
 function setBackgroundColor(){
-   const bckg =  document.body.style.backgroundColor = "lightpink";
-}
-setBackgroundColor()
-
+    const bckg =  document.body.style.backgroundColor = "lightpink";
+ }
+ setBackgroundColor()
+ 
 function setFontColour(){
     const font = document.getElementById("main").style.color = "green";
 }
