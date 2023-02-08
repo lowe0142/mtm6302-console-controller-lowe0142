@@ -1,14 +1,20 @@
 function setTitle(){
-document.getElementById("main-h1").innerHTML = "New Title";
+ const title = document.getElementById("main-h1").innerHTML = "New Title";
 }
 setTitle()
 
 function setDescription(){
-    document.querySelector("p").innerHTML = "New Description of Consolle Constroller";
+   const description =document.querySelector("p").innerHTML = "New Description of Console Constroller";
 }
 setDescription()
 
 function setBackgroundColor(){
-    document.body.style.backgroundColor = "lightpink";
+   const bckg =  document.body.style.backgroundColor = "lightpink";
 }
 setBackgroundColor()
+
+function setFontColour(){
+    const font = document.getElementById("main").style.color = "green";
+}
+setFontColour()
+
