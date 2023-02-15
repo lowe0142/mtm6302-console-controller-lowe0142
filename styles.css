@@ -5,13 +5,12 @@ body {
 }
 
 
-
 .dark-mode {
     background-color: black;
     color: white;
   }
 
-  .light-mode {
-    background-color: white;
-    color: black;
+  button {
+    padding: .5rem;
+    border-radius: 1px;
   }
