@@ -10,15 +10,15 @@ function setDescription(p){
 }
 
 
-function setBackgroundColor(bckg){
-    const $bckg =  document.getElementById('body')
-    $bckg.style.backgroundColor = bckg
+function setBackgroundColor(bck){
+    const $body =  document.body
+    $body.style.backgroundColor = bck;
 }
 
     
 function setFontColour(colour){
-    const $colour = document.getElementById('body')
-    $colour.style.color = colour
+    const $body = document.body
+    $body.style.color = colour;
 }
 
 
