@@ -1,5 +1,6 @@
 function setTitle(title){
-    const $title = document.getElementById("title").innerHTML = "New Title";
+    const $title = document.getElementById("title")
+    $title.textContent= title
 }
 
    
@@ -14,8 +15,8 @@ function setBackgroundColor(bckg){
 
 
     
-function setFontColour(){
-    const font = document.getElementById("main").style.color = "green";
+function setFontColour(font){
+    const $font = document.getElementById("main").style.color = "green";
 }
 
 
