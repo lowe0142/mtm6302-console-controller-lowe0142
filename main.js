@@ -11,7 +11,7 @@ function setTitle(title){
 
 
 function setBackgroundColor(bckg){
-    const $bckg =  document.querySelector('main')
+    const $bckg =  document.getElementById'main')
     $bckgbody.style.backgroundColor = bckg
 
 }
