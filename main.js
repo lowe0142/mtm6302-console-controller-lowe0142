@@ -1,5 +1,5 @@
-function setTitle(){
-    const title = document.getElementById("main-h1").innerHTML = "New Title";
+function setTitle(title){
+    const $title = document.getElementById("title").innerHTML = "New Title";
 }
 
    
