@@ -5,7 +5,8 @@ function setTitle(title){
 
    
  function setDescription(p){
-    const $p = document.querySelector("p").innerHTML = "This allows for user interaction without the need for an interface.";
+    const $p = document.querySelector("p")
+    $text.textContent = "This allows for user interaction without the need for an interface.";
 }
 
 
