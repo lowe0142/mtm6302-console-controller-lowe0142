@@ -11,11 +11,10 @@ function setTitle(title){
 
 
 function setBackgroundColor(bckg){
-    const $bckg =  document.getElementById'main')
+    const $bckg =  document.getElementById('main')
     $bckgbody.style.backgroundColor = bckg
 
 }
-
 
     
 function setFontColour(font){
