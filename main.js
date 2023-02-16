@@ -3,13 +3,13 @@ function setTitle(title){
 }
 
    
- function setDescription(){
-    const description = document.querySelector("p").innerHTML = "This allows for user interaction without the need for an interface.";
+ function setDescription(p){
+    const $p = document.querySelector("p").innerHTML = "This allows for user interaction without the need for an interface.";
 }
 
 
-function setBackgroundColor(){
-    const bckg =  document.body.style.backgroundColor = "lightpink";
+function setBackgroundColor(bckg){
+    const $bckg =  document.body.style.backgroundColor = "lightpink";
 }
 
 
