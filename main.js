@@ -11,13 +11,15 @@ function setTitle(title){
 
 
 function setBackgroundColor(bckg){
-    const $bckg =  document.body.style.backgroundColor ("lightpink")
+    const $bckg =  document.body.style.backgroundColor ("bck")
+
 }
 
 
     
 function setFontColour(font){
-    const $font = document.getElementById("main").style.color = "green";
+    const $font = document.getElementById("main")
+    $font.style.color = font
 }
 
 
