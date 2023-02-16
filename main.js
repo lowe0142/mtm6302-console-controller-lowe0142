@@ -1,17 +1,17 @@
 function setTitle(title){
-    const $title = document.getElementById("title")
+    const $title = document.getElementById('title')
     $title.textContent= title
 }
 
    
  function setDescription(p){
-    const $p = document.querySelector("p")
+    const $p = document.querySelector('p')
     $text.textContent = p
 }
 
 
 function setBackgroundColor(bckg){
-    const $bckg =  document.querySelector("main")
+    const $bckg =  document.querySelector('main')
     $bckgbody.style.backgroundColor = bckg
 
 }
@@ -19,14 +19,14 @@ function setBackgroundColor(bckg){
 
     
 function setFontColour(font){
-    const $font = document.getElementById("main")
+    const $font = document.getElementById('main')
     $font.style.color = font
 }
 
 
 function setTheme(theme){
-    let $theme = document.body;
-    element.classList.toggle("dark-mode");
+    let $theme = document.getElementById('main')
+    $theme.classList.toggle = theme
 }
 
 
