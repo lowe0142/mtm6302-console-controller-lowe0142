@@ -12,8 +12,7 @@ function setDescription(p){
 
 function setBackgroundColor(bckg){
     const $bckg =  document.getElementById('main')
-    $bckgbody.style.backgroundColor = bckg
-
+    $bckg.style.backgroundColor = bckg
 }
 
     
