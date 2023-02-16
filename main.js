@@ -11,18 +11,18 @@ function setDescription(p){
 
 
 function setBackgroundColor(bckg){
-    const $bckg =  document.getElementById('main')
+    const $bckg =  document.getElementById('body')
     $bckg.style.backgroundColor = bckg
 }
 
     
 function setFontColour(colour){
-    const $colour = document.getElementById('main')
+    const $colour = document.getElementById('body')
     $colour.style.color = colour
 }
 
 
-function setTheme(dark){
-    const $dark = document.body;
-    $dark.classList.toggle('dark-mode');
+function setTheme(){
+    const element = document.body;
+    element.classList.toggle('dark-mode');
 }
