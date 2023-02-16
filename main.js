@@ -18,7 +18,7 @@ function setBackgroundColor(bckg){
     
 function setFontColour(colour){
     const $colour = document.getElementById('main')
-    $font.style.color = colour
+    $colour.style.color = colour
 }
 
 
