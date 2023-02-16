@@ -4,9 +4,9 @@ function setTitle(title){
 }
 
    
- function setDescription(p){
+function setDescription(p){
     const $p = document.querySelector('p')
-    $text.textContent = p
+    $p.textContent = p
 }
 
 
