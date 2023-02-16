@@ -23,6 +23,6 @@ function setFontColour(colour){
 
 
 function setTheme(){
-    const $body = document.getElementById('dark')
+    const $body = document.body;
     $body.classList.toggle('dark-mode');
 }
