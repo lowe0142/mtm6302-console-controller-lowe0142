@@ -24,7 +24,7 @@ function setFontColour(colour){
 
 function setTheme(theme){
     let $theme = document.getElementById('main')
-    $theme.classList.toggle = theme
+    $theme.classList.toggle(theme)
 }
 
 
