@@ -22,9 +22,7 @@ function setFontColour(colour){
 }
 
 
-function setTheme(theme){
-    let $theme = document.getElementById('main')
-    $theme.classList.toggle(theme)
+function setTheme(){
+    const $body = document.getElementById('dark')
+    $body.classList.toggle('dark-mode');
 }
-
-

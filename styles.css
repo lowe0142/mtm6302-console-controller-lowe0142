@@ -1,16 +1,16 @@
-body {
+#main {
   background-color: white;
   color: black;
+  margin: 1rem;
 }
 
 
-.dark-mode {
+.darkmode{
     background-color: black;
     color: white;
-  }
+}
 
-  button {
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-  }
-
+button {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
