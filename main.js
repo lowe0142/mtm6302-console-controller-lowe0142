@@ -6,12 +6,12 @@ function setTitle(title){
    
  function setDescription(p){
     const $p = document.querySelector("p")
-    $text.textContent = "This allows for user interaction without the need for an interface.";
+    $text.textContent = p
 }
 
 
 function setBackgroundColor(bckg){
-    const $bckg =  document.body.style.backgroundColor = "lightpink";
+    const $bckg =  document.body.style.backgroundColor ("lightpink")
 }
 
 
@@ -21,8 +21,8 @@ function setFontColour(font){
 }
 
 
-function setTheme(){
-    let element = document.body;
+function setTheme(theme){
+    let $theme = document.body;
     element.classList.toggle("dark-mode");
 }
 
