@@ -1,7 +1,6 @@
 body {
   background-color: white;
   color: black;
-  font-size: 25px;
 }
 
 
@@ -11,6 +10,7 @@ body {
   }
 
   button {
-    padding: .5rem;
-    border-radius: 1px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
   }
+
