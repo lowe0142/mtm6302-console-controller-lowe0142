@@ -26,3 +26,5 @@ function setTheme(){
     const element = document.body;
     element.classList.toggle('dark-mode');
 }
+
+//Practicing Comments!//
